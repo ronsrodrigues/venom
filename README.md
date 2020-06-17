@@ -1,49 +1,28 @@
-Uma ferramenta para análise de aplicativos da Web.
+# Venom :python:
 
-Recursos
+### A tool for Web Application analysis.
 
-INFO
+## Features
+- INFO
+  - Whois lookup information about host
+  - Search for links, keywords related to sensitive data, emails and code comments
+  - Present HTTP response code and headers
+- HEADERS
+  - Verify the use of security headers and information about the Server version and framework
+- COOKIES
+  - If cookies are detected, verify the use of Secure and HttpOnly flags
+- METHODS
+  - Send HTTP request using different methods and show status code and reason for each case
+- AUTOCOMPLETE
+  - If any password input is detected, verify the use of 'autocomplete=off' parameter
+- ENUM
+  - Enumerate directories,using 'diretorios.txt' text file
+- SPIDER
+  - Spidering of webpage;
 
-Informações sobre uma pesquisa Whois sobre host
-
-Links de Pesquise, palavras-chave relacionadas a dados confidenciais, e-mails e comentários de código
-
-Receber código de resposta HTTP e cabeçalhos
-
-CABEÇAS
-
-Verifique o uso de cabeçalhos de segurança e informações sobre uma versão e a estrutura do servidor
-
-BISCOITOS
-
-Se os principais cookies detectados, verifique o uso dos sinalizadores Secure e HttpOnly
-
-MÉTODOS
-
-Envie uma solicitação HTTP usando métodos diferentes e o código de status e o motivo de cada caso
-
-AUTOCOMPLETAR
-
-
-Se alguma entrada de senha for detectada, verifique ou use o parâmetro 'autocomplete = off'
-
-ENUM
-
-Enumere diretórios usando o arquivo de texto 'diretorios.txt'
-
-ARANHA
-
-Spidering da página da web;
-
-Instalação
-
-Baixando
-
-
-git clone https://github.com/ronsrodrigues/venom.git
-
-Para instalar como bibliotecas solicitadas:
-
-
-pip3 install -r requirements.txt
-
+## Installation
+  Downloading it
+  - **git clone https://github.com/sampzzz/venom/**
+   
+  To install the required libraries:
+  - **pip3 install -r requirements.txt**
