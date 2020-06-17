@@ -22,7 +22,7 @@
 
 ## Installation
   Downloading it
-  - **git clone https://github.com/sampzzz/venom/**
+  - **git clone https://github.com/ronsrodrigues/venom.git/**
    
   To install the required libraries:
   - **pip3 install -r requirements.txt**
