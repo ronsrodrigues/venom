@@ -1,4 +1,4 @@
-# Venom :python:
+# Venom :spider:
 
 ### A tool for Web Application analysis.
 
